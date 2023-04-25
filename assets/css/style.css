@@ -1,2 +1,4 @@
-.p {color: darkorchid;
+.p strong {
+    background-color: blue;
+    color: gold;
 }
