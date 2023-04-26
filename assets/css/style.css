@@ -2,15 +2,37 @@
     color: white;
     background-color: black;
     margin: 5px 0px 5px 0px;
-    padding: 10px 
+    padding: 20px
 }
-.box2 {
-    float: right;
-    background-color: gray;
+.imgpromotionjarditou a {
+    max-height: 100%;
+    max-width: auto;
 }
-#imgpromotionjarditou {
-    height: 100%;
+.imgtaille {
+    height: 100px;
+    width: 100px;
 }
-.box1 {
+.accueil {
+    display: inline-block;
+    border: 2px;
+    position: static;
+    height: auto;
+}
+.box {
+    display: inline-block;
+}
+#box1 {
+    width: 65%;
     float: left;
+}
+#box2 {
+    background-color: grey;
+    width: 35%;
+    float: right;
+}
+.haut {
+    display: inline-block;
+}
+.top {
+    display: inline-block
 }
