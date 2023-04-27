@@ -2,20 +2,17 @@
     color: white;
     background-color: black;
     margin: 5px 0px 5px 0px;
-    padding: 20px
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.imgpromotionjarditou a {
-    max-height: 100%;
-    max-width: auto;
-}
-.imgtaille {
-    height: 100px;
-    width: 100px;
+#imgpromotionjarditou {
+    height: auto;
+    width: 100%;
 }
 .accueil {
-    display: inline-block;
-    border: 2px;
-    position: static;
+    display: flex;
+    justify-content: space-between;
+    font-size: auto;
     height: auto;
 }
 .box {
@@ -30,9 +27,30 @@
     width: 35%;
     float: right;
 }
-.haut {
-    display: inline-block;
+#haut {
+    display: flex;
 }
-.top {
-    display: inline-block
+.imglogojarditou {
+    height: 10%;
+    width: 10%;
+    margin: 0% 40% 0% 0%
+}
+.titre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tableau {
+    display: flex;
+    justify-content: space-between;
+    font-size: auto;
+    height: auto;
+}
+.imgtaille {
+    height: 95px;
+    width: 95px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    font-size: auto;
+    height: auto;
 }
