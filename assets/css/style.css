@@ -1,9 +1,22 @@
-.lien {
+#lien1 {
     color: white;
     background-color: black;
-    margin: 5px 0px 5px 0px;
-    padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#lien2 {
+        color: white;
+        background-color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#lien3 {
+    color: white;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lien {
+    background-color: black;
+    margin: 5px 0px 5px 0px;
+    padding: 25px;
 }
 #imgpromotionjarditou {
     height: auto;
@@ -28,15 +41,12 @@
     float: right;
 }
 #haut {
+    height: 50px;
+    width: auto;
     display: flex;
-    justify-content: flex-start;
-}
-.imglogojarditou {
-    height: 10%;
-    width: 10%;
-    margin: 0% 50% 0% 0%
 }
 .titre {
+    margin: 25%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .tableau {
@@ -54,4 +64,60 @@
     justify-content: space-between;
     font-size: auto;
     height: auto;
+}
+@media screen and (max-width: 768px) 
+{ 
+    head, body
+    { 
+        font-size : 40px; 
+    } 
+    #box2
+    {
+        display: none;
+    }
+    .imglogojarditou
+    {
+        margin: 0%;
+        width: 480px;
+        height: auto;
+    }
+    .titre
+    {
+        margin: 0%;
+        width: 480px;
+        height: auto;
+    }
+    #haut
+    {
+        width: 480px;
+        height: auto;
+        display: block;
+    }
+    #lien1 
+    {
+        color: white;
+        background-color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: block;
+    }
+    #lien2 
+    {
+        color: white;
+        background-color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: block;
+    }
+    #lien3 
+    {
+    color: white;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    }
+    .lien 
+    {
+        background-color: black;
+        margin: 5px 0px 5px 0px;
+        padding: 25px;
+    }
 }
