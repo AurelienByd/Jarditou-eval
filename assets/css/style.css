@@ -29,11 +29,12 @@
 }
 #haut {
     display: flex;
+    justify-content: flex-start;
 }
 .imglogojarditou {
     height: 10%;
     width: 10%;
-    margin: 0% 40% 0% 0%
+    margin: 0% 50% 0% 0%
 }
 .titre {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
