@@ -1,19 +1,24 @@
-#lien1 {
+.lien1 {
     color: white;
     background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#lien2 {
+.lien2 {
         color: white;
         background-color: black;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#lien3 {
+.lien3 {
     color: white;
     background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.lien {
+#lienheader {
+    background-color: black;
+    margin: 5px 0px 5px 0px;
+    padding: 25px;
+}
+#lienfooter {
     background-color: black;
     margin: 5px 0px 5px 0px;
     padding: 25px;
@@ -97,28 +102,34 @@
         display: flex;
         justify-content: space-between;
     }
-    #lien1 
+    .lien1 
     {
         color: white;
         background-color: black;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         display: block;
     }
-    #lien2 
+    .lien2 
     {
         color: white;
         background-color: black;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         display: block;
     }
-    #lien3 
+    .lien3 
     {
     color: white;
     background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: block;
     }
-    .lien 
+    #lienheader 
+    {
+        background-color: black;
+        margin: 5px 0px 5px 0px;
+        padding: 25px;
+    }
+    #lienfooter 
     {
         background-color: black;
         margin: 5px 0px 5px 0px;
