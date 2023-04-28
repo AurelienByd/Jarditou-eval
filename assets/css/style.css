@@ -45,8 +45,12 @@
     width: auto;
     display: flex;
 }
+.imglogojarditou {
+    margin: 0% 52% 0% 0%;
+}
 .titre {
-    margin: 25%;
+    font-size: 20px;
+    font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .tableau {
@@ -78,20 +82,20 @@
     .imglogojarditou
     {
         margin: 0%;
-        width: 480px;
-        height: auto;
+        width: 200px;
+        height: 70px;
     }
     .titre
     {
         margin: 0%;
-        width: 480px;
-        height: auto;
+        font-size: 40px;
     }
     #haut
     {
-        width: 480px;
+        width: 460px;
         height: auto;
-        display: block;
+        display: flex;
+        justify-content: space-between;
     }
     #lien1 
     {
@@ -119,5 +123,9 @@
         background-color: black;
         margin: 5px 0px 5px 0px;
         padding: 25px;
+    }
+    tr
+    {
+        font-size: 15px;
     }
 }
